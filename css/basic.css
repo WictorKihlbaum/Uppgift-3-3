@@ -63,38 +63,71 @@
                             color: #EAE7D2;
                             }
                             
-#maincontent h1             {
-                            margin: 0px;
-                            padding-bottom: 10px;
-                            font: 32px 'Times New Roman';
-                            color: #797066;
-                            }
-                            
-#subcontent h1              {
-                            margin: 0px;
-                            font: 16px 'Times New Roman';
-                            color: #51473D;
-                            }
-                            
 #content                    {
-                            padding: 20px 10px 10px 10px;
+                            overflow: auto;
+                            padding: 20px 10px 15px 10px;
                             background-color: #EAE7D2;
                             border: 1px solid #797066;
+                            color: #797066;
                             }
                             
 #maincontent                {
                             width: 330px;
                             border-right: 1px dashed #C0C0C0;
                             font: 14px arial;
-                            color: #797066;
                             float: left;
                             padding-right: 10px;
+                            line-height: 1.5;
+                            }
+                            
+#maincontent h1             {
+                            margin: 0px;
+                            padding-bottom: 10px;
+                            font: 32px 'Times New Roman';
+                            color: #797066;
+                            }
+                    
+#maincontent p              {
+                            margin: 0;
+                            }
+                            
+#subcontent                 {
+                            width: auto;
+                            font: 10px verdana;
+                            margin-left: 355px;
+                            line-height: 2;
+                            }
+                            
+#subcontent h1              {
+                            font: 16px 'Times New Roman';
+                            color: #51473D;
+                            }
+                            
+#subcontent h2              {
+                            font: 14px 'Times New Roman';
+                            color: #51473D;
+                            }
+                            
+#subcontent ul              {
+                            list-style-type: none;
+                            font: 12px verdana;
+                            padding: 0px;
+                            line-height: 2;
+                            }
+                            
+#subcontent ul li a:link    {
+                            color: #51473D;
                             }
                             
 img                         {
                             float: left;
                             padding-right: 5px;
-                            padding-bottom: 0px;
+                            }
+                            
+#bottomcontent              {
+                            clear: both;
+                            font: 10px verdana;
+                            font-style: italic;
                             }
                             
 
