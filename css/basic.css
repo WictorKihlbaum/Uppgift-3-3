@@ -4,6 +4,7 @@
                             width: 600px;
                             height: auto;
                             margin: 0 auto;
+                            border: 1px solid #797066;
                             }
                                
 #topbar                     {
@@ -18,8 +19,13 @@
                             padding-top: 5px;
                             padding-bottom: 5px;
                             }
+                            
+body #menu a                {
+                            visibility: hidden;
+                            }
                                
 #menu                       {
+                            visibility: visible;
                             width: 100%;
                             height: 240px;
                             background-color: #51473D;
@@ -41,11 +47,16 @@
                             }
                                    
 #menu ul li a               {
+                            visibility: initial;
                             height: 21px;
                             margin-left: 1px;
                             padding: 9px 20px 0px 20px;
                             text-decoration: none;
                             display: block;
+                            }
+                            
+#menu ul li a::first-letter {
+                            text-transform: uppercase;
                             }
                                
 #menu ul li a:link          {
@@ -63,20 +74,28 @@
                             color: #EAE7D2;
                             }
                             
+#menu .active a:link        {
+                            background-color: #EAE7D2;
+                            color: #51473D;
+                            border-bottom: 1px solid #EAE7D2;
+                            }
+                            
 #content                    {
+                            margin-top: 1px;
                             overflow: auto;
                             padding: 20px 10px 15px 10px;
                             background-color: #EAE7D2;
-                            border: 1px solid #797066;
-                            color: #797066;
                             }
                             
 #maincontent                {
                             width: 330px;
+                            height: auto;
                             border-right: 1px dashed #C0C0C0;
                             font: 14px arial;
+                            color: #797066;
                             float: left;
                             padding-right: 10px;
+                            padding-bottom: 10px;
                             line-height: 1.5;
                             }
                             
@@ -94,6 +113,7 @@
 #subcontent                 {
                             width: auto;
                             font: 10px verdana;
+                            color: #797066;
                             margin-left: 355px;
                             line-height: 2;
                             }
@@ -106,6 +126,8 @@
 #subcontent h2              {
                             font: 14px 'Times New Roman';
                             color: #51473D;
+                            margin-top: 30px;
+                            margin-bottom: 0;
                             }
                             
 #subcontent ul              {
@@ -113,6 +135,7 @@
                             font: 12px verdana;
                             padding: 0px;
                             line-height: 2;
+                            margin: 0;
                             }
                             
 #subcontent ul li a:link    {
@@ -127,6 +150,7 @@ img                         {
 #bottomcontent              {
                             clear: both;
                             font: 10px verdana;
+                            color: #797066;
                             font-style: italic;
                             }
                             
