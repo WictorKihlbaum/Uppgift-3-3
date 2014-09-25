@@ -1,1 +1,102 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container                  {
+                            width: 600px;
+                            height: auto;
+                            margin: 0 auto;
+                            }
+                               
+#topbar                     {
+                            width: 100%;
+                            height: 10px;
+                            background-color: #51473D;
+                            text-align: right;
+                            font-family: verdana;
+                            font-size: 10px;
+                            font-style: italic;
+                            color: #EAE7D2;
+                            padding-top: 5px;
+                            padding-bottom: 5px;
+                            }
+                               
+#menu                       {
+                            width: 100%;
+                            height: 240px;
+                            background-color: #51473D;
+                            background-image: URL('css/pics/coffey.jpg');
+                            background-repeat: no-repeat;
+                            font-family: verdana;
+                            font-size: 12px;
+                            }
+                               
+#menu ul                    {
+                            list-style-type: none;
+                            margin-left: 10px;
+                            padding: 0px;
+                            margin-top: 195px;
+                            }
+                            
+#menu ul li                 {
+                            float: left;
+                            }
+                                   
+#menu ul li a               {
+                            height: 21px;
+                            margin-left: 1px;
+                            padding: 9px 20px 0px 20px;
+                            text-decoration: none;
+                            display: block;
+                            }
+                               
+#menu ul li a:link          {
+                            background-color: #797066;
+                            color: #EAE7D2;
+                            }
+                               
+#menu ul li a:visited       {
+                            background-color: #797066;
+                            color: #EAE7D2;
+                            }
+                            
+#menu ul li a:hover         {
+                            background-color: #9C9084;
+                            color: #EAE7D2;
+                            }
+                            
+#maincontent h1             {
+                            margin: 0px;
+                            padding-bottom: 10px;
+                            font: 32px 'Times New Roman';
+                            color: #797066;
+                            }
+                            
+#subcontent h1              {
+                            margin: 0px;
+                            font: 16px 'Times New Roman';
+                            color: #51473D;
+                            }
+                            
+#content                    {
+                            padding: 20px 10px 10px 10px;
+                            background-color: #EAE7D2;
+                            border: 1px solid #797066;
+                            }
+                            
+#maincontent                {
+                            width: 330px;
+                            border-right: 1px dashed #C0C0C0;
+                            font: 14px arial;
+                            color: #797066;
+                            float: left;
+                            padding-right: 10px;
+                            }
+                            
+img                         {
+                            float: left;
+                            padding-right: 5px;
+                            padding-bottom: 0px;
+                            }
+                            
+
+                               
+                               
