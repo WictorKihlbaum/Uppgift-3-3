@@ -8,7 +8,7 @@
                             }
                                
 #topbar                     {
-                            width: 100%;
+                            width: 600px;
                             height: 10px;
                             background-color: #51473D;
                             text-align: right;
@@ -20,14 +20,14 @@
                             padding-bottom: 5px;
                             }
                             
-body #menu a                {
+#menu a                     {
                             visibility: hidden;
                             }
                                
 #menu                       {
                             visibility: visible;
-                            background-image: URL('css/pics/coffey.jpg');
-                            width: 100%;
+                            background-image: url('pics/coffey.jpg');
+                            width: 600px;
                             height: 240px;
                             background-color: #51473D;
                             background-repeat: no-repeat;
@@ -47,7 +47,7 @@ body #menu a                {
                             }
                                    
 #menu ul li a               {
-                            visibility: initial;
+                            visibility: visible;
                             height: 21px;
                             margin-left: 1px;
                             padding: 9px 20px 0px 20px;
