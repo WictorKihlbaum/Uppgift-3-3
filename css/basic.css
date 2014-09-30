@@ -102,7 +102,7 @@
                             }
                             
 #maincontent h1             {
-                            margin: 0px;
+                            margin: 0;
                             padding-bottom: 10px;
                             font: 32px 'Times New Roman';
                             color: #797066;
@@ -114,7 +114,7 @@
                             
 #subcontent                 {
                             position: absolute;
-                            margin-top: 9px;
+                            margin-top: 4px;
                             padding-right: 10px;
                             width: auto;
                             font: 10px verdana;
@@ -126,6 +126,7 @@
 #subcontent h1              {
                             font: 16px 'Times New Roman';
                             color: #51473D;
+                            margin-bottom: 15px;
                             }
                             
 #subcontent h2              {
@@ -138,7 +139,7 @@
 #subcontent ul              {
                             list-style-type: none;
                             font: 12px verdana;
-                            padding: 0px;
+                            padding: 0;
                             line-height: 2;
                             margin: 0;
                             }
